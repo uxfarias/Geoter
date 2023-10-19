@@ -39,6 +39,11 @@
 
 .footer-contact img {
     height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-contact div {
+    align-items: flex-start;
 }
 
 .footer-contact-phone {
@@ -49,4 +54,9 @@
 .footer-contact-email {
     display: flex;
     flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

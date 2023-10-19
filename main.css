@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    //background-image: url('./assets/background.svg');
     background-image: linear-gradient(170deg, #00281C, #0C5F47, #00281C);
 }
 
@@ -16,9 +15,9 @@ body {
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
-    padding: 64px;
     text-align: center;
     color: #F2F2F2;
+    margin-bottom: 5rem;
 }
 
 .titulo1 {
@@ -47,17 +46,17 @@ body {
 .sobre {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .imagem img{
-    border-radius: 20px;
-    object-fit: cover;
-    width: 612px;
-    height: 256px;
+    width: 100%;
 }
+
 .texto {
+    width: 50%;
     text-align: right;
-    margin-right: 64px;
+    padding: 0 64px;
 }
 
 .texto li {
