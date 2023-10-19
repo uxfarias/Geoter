@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    //background-image: url('./assets/background.svg');
+    background-image: linear-gradient(170deg, #00281C, #0C5F47, #00281C);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    padding: 64px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.titulo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    padding: 64px;
+    text-align: center;
+    color: #F2F2F2;
+    margin-top: 64px;
+}
+
+.titulo p, li, .titulo1 p {
+    max-width: 712px;
+    font-size: 0.6em;
+}
+
+.arrowdown {
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+}
+
+.imagem img{
+    border-radius: 20px;
+    object-fit: cover;
+    width: 612px;
+    height: 256px;
+}
+.texto {
+    text-align: right;
+    margin-right: 64px;
+}
+
+.texto li {
+    text-align: left;
+    padding: 0.5em;
+    margin-left: 64px;
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilos para o plano de fundo parallax */
+.parallax-bg {
+    background-image: url('./assets/graphics.svg'); /* Substitua com o caminho para o seu arquivo SVG */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%; /* Ajuste a altura para criar o efeito de parallax desejado */
+    z-index: -1; /* Coloca o plano de fundo atrás do conteúdo */
+}

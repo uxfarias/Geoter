@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Geoter</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/logo.svg">
+        </div>
+        <nav>
+            <ul>
+                <li class="home"><a href="index.html">Início</a></li>
+                <li class="form"><a href="form.html">Contato</a></li>
+                <li class="portfolio"><a href="#">Portfólio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Formulário de contato</h1>
+    <form action="https://formsubmit.co/geotertopografia@outlook.com" method="POST" class="form">
+        <label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="Nome" required>
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="E-mail" required>
+        <label for="message"></label>
+        <textarea name="message" id="message" placeholder="Escreva sua mensagem aqui" required></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+        <button type="submit">ENVIAR</button>
+   </form>
+</body>
+</html>

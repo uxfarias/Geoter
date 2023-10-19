@@ -1,0 +1,52 @@
+.footer {
+    background-color: #00281C;
+    border-top: solid 1px #3A846F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: regular;
+    padding: 32px 0;
+}
+
+.footer-logo {
+    font-size: 0.8rem;
+}
+
+.footer-social {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer-social-buttons {
+    display: flex;
+}
+
+.footer-social-buttons a {
+    margin-right: 1rem;
+}
+
+.footer-social-buttons img {
+    height: 2.5rem;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-contact img {
+    height: 1.5rem;
+}
+
+.footer-contact-phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact-email {
+    display: flex;
+    flex-direction: column;
+}
