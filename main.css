@@ -81,3 +81,13 @@ body {
     height: 150%; /* Ajuste a altura para criar o efeito de parallax desejado */
     z-index: -1; /* Coloca o plano de fundo atrás do conteúdo */
 }
+
+#map {
+    display: flex;
+    padding-bottom: 64px;
+}
+
+#map > iframe {
+    margin: auto;
+    border-radius: 20px;
+}
